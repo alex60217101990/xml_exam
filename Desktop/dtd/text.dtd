@@ -1,0 +1,17 @@
+<!ELEMENT MyList (element+)>
+<!ELEMENT element ((namePr1|namePr),(address1|address),(type1|type),(number_of_floors1|number_of_floors),(price1|price))>
+<!ELEMENT namePr (#PCDATA) >
+<!ELEMENT namePr1 (#PCDATA) >
+<!ELEMENT address (#PCDATA) >
+<!ELEMENT address1 (#PCDATA) >
+<!ELEMENT type1 (#PCDATA)>
+
+<!ELEMENT type EMPTY >
+<!ELEMENT price (#PCDATA) >
+<!ELEMENT price1 (#PCDATA) >
+<!ELEMENT number_of_floors1 (#PCDATA) >
+<!ELEMENT number_of_floors (#PCDATA) >
+<!ATTLIST element id CDATA #REQUIRED>
+<!ENTITY myname "Незадано">
+ <!ATTLIST type 
+      type_size (квартира|дом|участок) #REQUIRED>
