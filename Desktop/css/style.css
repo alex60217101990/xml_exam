@@ -1,0 +1,26 @@
+list element {
+display: table;
+width: 30em;
+ border-collapse: collapse;
+ border-spacing: 0;
+ border: 2px solid gray;
+ table-layout: fixed;
+}
+element{
+	display: table-row;
+}
+element:nth-child(odd) {
+  background: #ffc;
+}
+namePr,address,type,number_of_floors,price,namePr1,address1,type1,number_of_floors1,price1{
+display: table-cell;
+padding: 0.3em;
+border: 1px solid gray;
+vertical-align: top;
+text-align: center;
+}
+namePr1,address1,type1,number_of_floors1,price1 {
+ font-weight: bold;
+ background: gray;
+ color: #fff;
+}

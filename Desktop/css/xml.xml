@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE list SYSTEM "text.dtd">
+<?xml-stylesheet href="style.css" type="text/css"?>
+<list>
+	<element id="1">
+		<namePr1>Название</namePr1>
+		<address1>Адресс</address1>
+		<type1>Тип</type1>
+		<number_of_floors1>Количество этажей</number_of_floors1>
+		<price1>Цена за квадратный метр</price1>
+	</element>
+
+	<element id="2">
+		<namePr>Воробьевы Горы</namePr>
+		<address>вулиця Чернівецька, 5, Харків, Харківська область, 61000</address>
+		<type>Эконом</type>
+		<number_of_floors>12</number_of_floors>
+		<price>15000</price>
+	</element>
+
+	<element id="3">
+		<namePr>ЖК Мира 4</namePr>
+		<address>ул. 12 Апреля и ул.Библика</address>
+		<type>Эконом</type>
+		<number_of_floors>19 сек. 9 эт.</number_of_floors>
+		<price>9800</price>
+	</element>
+
+	<element id="4">
+		<namePr>ЖК Левада</namePr>
+		<address>ул. Елизаветинская 1А</address>
+		<type>Эконом</type>
+		<number_of_floors>9, 16 этажей</number_of_floors>
+		<price>12000</price>
+	</element>
+
+	<element id="5">
+		<namePr>ЖК Салтовский 1</namePr>
+		<address>ул. Драгоманова</address>
+		<type>Эконом</type>
+		<number_of_floors>25 домов 9 этажей</number_of_floors>
+		<price>10800</price>
+	</element>
+
+	<element id="6">
+		<namePr>ЖД по ул. Ньютона</namePr>
+		<address>ул. Ньютона, д.1</address>
+		<type>Эконом</type>
+		<number_of_floors>9 этажей</number_of_floors>
+		<price>13000</price>
+	</element>
+
+	<element id="7">
+		<namePr>ЖК Балакирева</namePr>
+		<address>ул. Балакирева, 17</address>
+		<type>Комфорт</type>
+		<number_of_floors>16 этажей</number_of_floors>
+		<price>24000</price>
+	</element>
+
+	<element id="8">
+		<namePr>ЖД Искринский</namePr>
+		<address>ул. Искринская 17-а, д.3</address>
+		<type>Комфорт</type>
+		<number_of_floors>16 этажей</number_of_floors>
+		<price>22000</price>
+	</element>
+
+	<element id="9">
+		<namePr>ЖК Семинарский</namePr>
+		<address>ул. Семинарская, 46</address>
+		<type>Эконом</type>
+		<number_of_floors>5 этажей</number_of_floors>
+		<price>10000</price>
+	</element>
+</list>
